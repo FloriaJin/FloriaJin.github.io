@@ -76,7 +76,7 @@ ninja.data = [{
         
           title: "Another River",
         
-        description: "Why I left the social sciences for data science, and what I carried across.",
+        description: "Why I left the social sciences for AI, and what I carried across.",
         section: "Posts",
         handler: () => {
           
