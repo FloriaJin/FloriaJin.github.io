@@ -88,16 +88,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-started-as-a-research-assistant-at-city-university-of-hong-kong-counterfactual-climate-risk-modeling-and-shanghai-jiao-tong-university-memory-systems-for-a-mental-health-agent",
+          title: 'Started as a research assistant at City University of Hong Kong (counterfactual climate-risk...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-submitted-mathematically-optimizing-doctoral-consortium-group-assignment-to-the-undergraduate-research-symposium-2026-tada",
+          title: 'Submitted Mathematically Optimizing Doctoral Consortium Group Assignment to the Undergraduate Research Symposium 2026....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-launched-this-site-and-wrote-my-first-post-another-river",
+          title: 'Launched this site and wrote my first post, Another River.',
           description: "",
           section: "News",},{id: "projects-secalign-prompt-injection-defense",
           title: 'SecAlign — Prompt-Injection Defense',
