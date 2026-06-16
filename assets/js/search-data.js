@@ -69,12 +69,7 @@ ninja.data = [{
             window.location.href = "/blog/2026/another-river/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-as-a-research-assistant-at-city-university-of-hong-kong-counterfactual-climate-risk-modeling-and-shanghai-jiao-tong-university-memory-systems-for-a-mental-health-agent",
+      },{id: "news-started-as-a-research-assistant-at-city-university-of-hong-kong-counterfactual-climate-risk-modeling-and-shanghai-jiao-tong-university-memory-systems-for-a-mental-health-agent",
           title: 'Started as a research assistant at City University of Hong Kong (counterfactual climate-risk...',
           description: "",
           section: "News",},{id: "news-submitted-mathematically-optimizing-doctoral-consortium-group-assignment-to-the-undergraduate-research-symposium-2026-tada",
