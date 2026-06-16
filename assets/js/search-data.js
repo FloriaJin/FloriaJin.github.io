@@ -99,51 +99,36 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-secalign-prompt-injection-defense",
+          title: 'SecAlign — Prompt-Injection Defense',
+          description: "Reproducing preference-optimization defenses against prompt injection.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_secalign/";
+            },},{id: "projects-circuit-breakers-representation-engineering",
+          title: 'Circuit Breakers — Representation Engineering',
+          description: "Altering harmful hidden representations while retaining benign behavior.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_circuit_breakers/";
+            },},{id: "projects-safe-rlhf-amp-latent-adversarial-training",
+          title: 'Safe-RLHF &amp;amp; Latent Adversarial Training',
+          description: "Helpfulness vs. harmlessness as separate signals; robustness to persistent harmful behaviors.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_safe_rlhf/";
+            },},{id: "projects-price-elasticity-via-double-machine-learning",
+          title: 'Price Elasticity via Double Machine Learning',
+          description: "Debiased causal estimation of price elasticity with cross-fitting.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_double_ml/";
+            },},{id: "projects-counterfactual-climate-risk-assessment",
+          title: 'Counterfactual Climate-Risk Assessment',
+          description: "ATTRICI-based counterfactual modeling for aviation emission trade-offs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_climate_risk/";
+            },},{id: "projects-longitudinal-memory-for-a-mental-health-agent",
+          title: 'Longitudinal Memory for a Mental-Health Agent',
+          description: "CoALA-inspired memory across five interfaces for continuity over sessions.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/6_memory_agent/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
