@@ -2,7 +2,7 @@
 layout: post
 title: Another River
 date: 2026-06-16
-description: Why I left the social sciences for data science, and what I carried across.
+description: Why I left the social sciences for AI, and what I carried across.
 tags: reflection social-science data-science
 categories: essays
 featured: true
