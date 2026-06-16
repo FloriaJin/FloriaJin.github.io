@@ -3,18 +3,19 @@
 # -----------------------------------------------------------------------------
 
 title: Floria Jin
-first_name: Floria
+first_name: Beixuan(Floria)
 middle_name: 
 last_name: Jin
-contact_note: > 
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+contact_note: >
+  The best way to reach me is by email.
+description: >
+  Personal website of Beixuan (Floria) Jin — junior AI researcher working on
+  AI safety and alignment, causal ML, LLM, and Bayesian methods.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Veni Vidi Vici
+keywords: Beixuan Jin, Floria Jin, LLM, RL, CV, AI safety, alignment, causal inference, Bayesian, machine learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -121,24 +122,9 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-# Optional: Set default categories and tags for posts from each source.
+disqus_shortname: 
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+ 
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -271,16 +257,15 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
-
+display_categories: ["notes", "papers", "essays"]
+display_tags: ["reinforcement-learning", "machine-learning", "AI-Infra", "paper-reading"]
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Jin]
+  first_name: [Beixuan, B., Floria]
 
   style: apa
   locale: en
