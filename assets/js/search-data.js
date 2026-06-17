@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-another-river",
+            },{id: "post-reading-notes-on-bluecodeagent",
+        
+          title: "Reading Notes on BlueCodeAgent",
+        
+        description: "A reading note on BlueCodeAgent and possible optimization directions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/bluecodeagent-notes/";
+          
+        },
+      },{id: "post-another-river",
         
           title: "Another River",
         
