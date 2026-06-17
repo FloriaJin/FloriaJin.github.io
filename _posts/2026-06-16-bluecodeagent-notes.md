@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Reading Notes on BlueCodeAgent"
+date: 2026-06-16
+description: "A reading note on BlueCodeAgent and possible optimization directions."
+tags: ai-safety code-agent trustworthy-ai
+categories: research-notes
+---
 # BlueCodeAgent: Reading Notes
 
 > **Source:** Chengquan Guo, Yuzhou Nie, Chulin Xie, Zinan Lin, Wenbo Guo, **Bo Li**.
