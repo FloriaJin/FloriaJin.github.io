@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  Junior AI researcher · Statistics @ <a href='https://illinois.edu'>UIUC</a> · AI Safety & Alignment · Causal ML
+subtitle: Junior AI researcher · Statistics @ <a href='https://illinois.edu'>UIUC</a> · AI Safety & Alignment · Causal ML
 
 profile:
   align: right

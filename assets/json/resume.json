@@ -128,7 +128,16 @@
   "interests": [
     {
       "name": "Research Interests",
-      "keywords": ["AI Safety and Alignment", "Causal Inference / Causal ML", "Bayesian Optimization / Modeling", "Graph Machine Learning", "LLM Security", "Representation Engineering", "Agentic AI", "Multimodal LLMs"]
+      "keywords": [
+        "AI Safety and Alignment",
+        "Causal Inference / Causal ML",
+        "Bayesian Optimization / Modeling",
+        "Graph Machine Learning",
+        "LLM Security",
+        "Representation Engineering",
+        "Agentic AI",
+        "Multimodal LLMs"
+      ]
     }
   ]
 }

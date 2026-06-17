@@ -6,20 +6,21 @@ description: "A reading note on BlueCodeAgent and possible optimization directio
 tags: ai-safety code-agent trustworthy-ai
 categories: research-notes
 ---
+
 # BlueCodeAgent: Reading Notes
 
 > **Source:** Chengquan Guo, Yuzhou Nie, Chulin Xie, Zinan Lin, Wenbo Guo, **Bo Li**.
-> *BlueCodeAgent: A Blue Teaming Agent Enabled by Automated Red Teaming for CodeGen AI.*
+> _BlueCodeAgent: A Blue Teaming Agent Enabled by Automated Red Teaming for CodeGen AI._
 > arXiv:2510.18131, 2025. [[arXiv]](https://arxiv.org/abs/2510.18131) · [[OpenReview]](https://openreview.net/forum?id=OPkWzU5Wz9) · [[Microsoft Research blog]](https://www.microsoft.com/en-us/research/blog/bluecodeagent-a-blue-teaming-agent-enabled-by-automated-red-teaming-for-codegen-ai/)
 
 ## Guiding Principles
 
 - **Read the structure for both signal and silence.** Pay attention not only to what the paper explicitly states, but also to what it leaves unsaid.
-- **Think outside the framework.** A natural next step is to *escalate to a human expert*. If the future is one of human–AI coexistence, then the design itself must reserve a place for the human in the loop.
+- **Think outside the framework.** A natural next step is to _escalate to a human expert_. If the future is one of human–AI coexistence, then the design itself must reserve a place for the human in the loop.
 
 ## Blue Team and Red Team
 
-The work proceeds along **two tracks**: *benchmarks* and *methodology*.
+The work proceeds along **two tracks**: _benchmarks_ and _methodology_.
 
 - **Dataset:** CWE (Common Weakness Enumeration)
 
@@ -31,7 +32,7 @@ The work proceeds along **two tracks**: *benchmarks* and *methodology*.
 
 **Key insight:** strong red-team knowledge can inform and strengthen the blue team.
 
-**Pain point:** *manually defining large-scale, high-quality security principles is impractical.*
+**Pain point:** _manually defining large-scale, high-quality security principles is impractical._
 
 ### The four contributions
 
@@ -43,7 +44,7 @@ The work proceeds along **two tracks**: *benchmarks* and *methodology*.
 
 ### Target Risks Taxonomy
 
-The risks BlueCodeAgent targets split into two levels — the **input / textual level** (risks in the instructions) and the **output / code level** (risks in the generated code). Each leaf category contrasts an *unsafe* case against its *safe* counterpart, which is what makes the detection task non-trivial: the defender must separate genuinely harmful inputs/outputs from superficially similar but benign ones.
+The risks BlueCodeAgent targets split into two levels — the **input / textual level** (risks in the instructions) and the **output / code level** (risks in the generated code). Each leaf category contrasts an _unsafe_ case against its _safe_ counterpart, which is what makes the detection task non-trivial: the defender must separate genuinely harmful inputs/outputs from superficially similar but benign ones.
 
 ```mermaid
 flowchart TD
@@ -78,7 +79,7 @@ flowchart TD
     class BIAS_S,MAL_S,VC_S safe;
 ```
 
-> **Legend.** Purple = top-level category · teal = input / textual-level risks · salmon = output / code-level risks · red = *unsafe* (harmful or vulnerable) · green = *safe* (normal or repaired).
+> **Legend.** Purple = top-level category · teal = input / textual-level risks · salmon = output / code-level risks · red = _unsafe_ (harmful or vulnerable) · green = _safe_ (normal or repaired).
 
 ## How the Selected Risks Are Evaluated
 
@@ -88,8 +89,8 @@ flowchart TD
 4. **Experiment Setup** — the pipeline works as follows:
    - Feed in a harmful prompt.
    - Using the embedded vector, retrieve the three most similar entries from `BlueCodeKnow` or `BlueCodeEval`.
-   - From these four items, use GPT-4o to summarize a new *constitution*.
-   - Use a Claude model as the *dynamic analyzer* to analyze the current input sample.
+   - From these four items, use GPT-4o to summarize a new _constitution_.
+   - Use a Claude model as the _dynamic analyzer_ to analyze the current input sample.
    - Note: the dynamic analyzer does **not** internalize the constitution into the model parameters through training. Instead, at inference time the constitution is supplied to Claude as an in-context prompt, and Claude then analyzes the current sample according to this dynamically generated constitution.
 5. **Metrics**
    - **Precision** — of the samples flagged as dangerous, how many are truly unsafe: `TP / (TP + FP)`.
@@ -114,14 +115,13 @@ BlueCodeAgent performs consistently well on both seen and unseen risks across th
 
 ## Ablation Study
 
-- **Sensitivity to Different Knowledge:** compute the cosine similarity between the *category embeddings* of the seven test categories and the eight knowledge categories, and express the result via the Pearson coefficient:
+- **Sensitivity to Different Knowledge:** compute the cosine similarity between the _category embeddings_ of the seven test categories and the eight knowledge categories, and express the result via the Pearson coefficient:
 
   `Pearson = corr(cosine similarity, F1 score)`
 
   Interpretation: this measures how much each test category depends on the eight existing knowledge categories. The higher the coefficient, the stronger that dependence.
-
   - The F1 of **seen** risks is higher than that of **unseen** risks.
-  - The *constitution* (which increases true positives (TP) and reduces false negatives (FN)) and *dynamic testing* (which reduces false positives (FP)) are **complementary**.
+  - The _constitution_ (which increases true positives (TP) and reduces false negatives (FN)) and _dynamic testing_ (which reduces false positives (FP)) are **complementary**.
 
 ## Future Directions (within the framework — and beyond?)
 

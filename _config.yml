@@ -4,7 +4,7 @@
 
 title: Floria Jin
 first_name: Beixuan(Floria)
-middle_name: 
+middle_name:
 last_name: Jin
 contact_note: >
   The best way to reach me is by email.
@@ -122,9 +122,8 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: 
+disqus_shortname:
 external_sources:
- 
 
 # -----------------------------------------------------------------------------
 # Newsletter
