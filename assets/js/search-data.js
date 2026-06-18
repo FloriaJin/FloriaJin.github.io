@@ -58,18 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-few-shot-learning-notes-on-food-101",
-        
-          title: "Few-Shot Learning Notes on Food-101",
-        
-        description: "A learning note on few-shot classification using the Food-101 dataset.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/few-shot-food101-learning-note/";
-          
-        },
-      },{id: "post-reading-notes-on-bluecodeagent",
+            },{id: "post-reading-notes-on-bluecodeagent",
         
           title: "Reading Notes on BlueCodeAgent",
         
