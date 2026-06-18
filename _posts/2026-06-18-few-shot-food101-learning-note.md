@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Few-Shot Learning Notes on Food-101"
+date: 2026-06-18
+description: "A learning note on few-shot classification using the Food-101 dataset."
+tags: few-shot-learning machine-learning computer-vision food101
+categories: research-notes
+---
 # Few-Shot Image Classification on Food101 — Learning Note
 
 > **Type:** Project-learning note (paper/code reading & line-by-line walkthrough)
