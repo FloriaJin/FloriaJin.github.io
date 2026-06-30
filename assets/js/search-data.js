@@ -100,36 +100,46 @@ ninja.data = [{
           section: "News",},{id: "news-launched-this-site-and-wrote-my-first-post-another-river",
           title: 'Launched this site and wrote my first post, Another River.',
           description: "",
-          section: "News",},{id: "projects-secalign-prompt-injection-defense",
-          title: 'SecAlign — Prompt-Injection Defense',
-          description: "Reproducing preference-optimization defenses against prompt injection.",
+          section: "News",},{id: "projects-vlm-failure-mode-analysis",
+          title: 'VLM Failure Mode Analysis',
+          description: "Do vision-language models trust the image, or follow misleading language priors?",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_secalign/";
-            },},{id: "projects-circuit-breakers-representation-engineering",
-          title: 'Circuit Breakers — Representation Engineering',
-          description: "Altering harmful hidden representations while retaining benign behavior.",
+              window.location.href = "/projects/1_vlm_failure_modes/";
+            },},{id: "projects-targeted-latent-adversarial-training-reproduction",
+          title: 'Targeted Latent Adversarial Training — Reproduction',
+          description: "Laptop-scale reproduction of latent-space adversarial robustness for LLMs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_circuit_breakers/";
-            },},{id: "projects-safe-rlhf-amp-latent-adversarial-training",
-          title: 'Safe-RLHF &amp;amp; Latent Adversarial Training',
-          description: "Helpfulness vs. harmlessness as separate signals; robustness to persistent harmful behaviors.",
+              window.location.href = "/projects/2_latent_adversarial_training/";
+            },},{id: "projects-logllm-reproduction",
+          title: 'LogLLM — Reproduction',
+          description: "Reproducing LLM-based log anomaly detection, with reproducibility and robustness fixes.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_safe_rlhf/";
-            },},{id: "projects-price-elasticity-via-double-machine-learning",
-          title: 'Price Elasticity via Double Machine Learning',
-          description: "Debiased causal estimation of price elasticity with cross-fitting.",
+              window.location.href = "/projects/3_logllm/";
+            },},{id: "projects-merina-reproduction-amp-adaptation-analysis",
+          title: 'MERINA — Reproduction &amp;amp; Adaptation Analysis',
+          description: "Meta-RL adaptive bitrate streaming, with cross-dataset and Puffer adaptation analysis.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_double_ml/";
-            },},{id: "projects-counterfactual-climate-risk-assessment",
-          title: 'Counterfactual Climate-Risk Assessment',
-          description: "ATTRICI-based counterfactual modeling for aviation emission trade-offs.",
+              window.location.href = "/projects/4_merina_adp_analysis/";
+            },},{id: "projects-minimal-merina",
+          title: 'Minimal MERINA+',
+          description: "A compact, readable reimplementation of meta-RL adaptive bitrate streaming.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_climate_risk/";
-            },},{id: "projects-longitudinal-memory-for-a-mental-health-agent",
-          title: 'Longitudinal Memory for a Mental-Health Agent',
-          description: "CoALA-inspired memory across five interfaces for continuity over sessions.",
+              window.location.href = "/projects/5_minimal_merina/";
+            },},{id: "projects-imitation-learning-for-continuous-control",
+          title: 'Imitation Learning for Continuous Control',
+          description: "Behavioral Cloning vs. DAgger on MuJoCo locomotion, and when cloning breaks.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_memory_agent/";
+              window.location.href = "/projects/6_imitation_learning_mujoco/";
+            },},{id: "projects-mirror-symmetry-detection-net",
+          title: 'Mirror-Symmetry Detection Net',
+          description: "A from-scratch NumPy reproduction of the classic 1986 backprop symmetry network.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_symmetry_net/";
+            },},{id: "projects-cs224r-deep-rl-homework",
+          title: 'CS224R — Deep RL Homework',
+          description: "Coursework on deep reinforcement learning (private repository).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_cs224r_hw1/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -166,14 +176,7 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/AriaJin20", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/", "_blank");
+          window.open("https://github.com/FloriaJin", "_blank");
         },
       },{
         id: 'social-rss',
@@ -181,13 +184,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
         },
       },{
       id: 'light-theme',
