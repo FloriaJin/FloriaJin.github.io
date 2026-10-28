@@ -72,7 +72,7 @@ failure step and category (Barke et al., 2026).
 
 *Constraint-based failure localization in AgentRx*
 
-![Figure 1]({{ "/assets/images/mas-failure-review/figure-1.png" | relative_url }})
+![Figure 1]({{ "/assets/img/mas-failure-review/figure-1.png" | relative_url }})
 
 *Note.* Reproduced from “AgentRx: Diagnosing AI Agent Failures from
 Execution Trajectories,” by S. Barke, A. Goyal, A. Khare, A. Singh, S.
@@ -94,7 +94,7 @@ failures.
 *Example of an AgentRx root-cause annotation for an
 instruction-adherence failure*
 
-![Figure 2]({{ "/assets/images/mas-failure-review/figure-2.png" | relative_url }})
+![Figure 2]({{ "/assets/img/mas-failure-review/figure-2.png" | relative_url }})
 
 *Note.* Reproduced from Appendix E.3 of “AgentRx: Diagnosing AI Agent
 Failures from Execution Trajectories,” by S. Barke et al., 2026,
@@ -128,7 +128,7 @@ et al., 2025).
 
 *Construction pipeline for AgentErrorTaxonomy and AgentErrorBench*
 
-![Figure 3]({{ "/assets/images/mas-failure-review/figure-3.png" | relative_url }})
+![Figure 3]({{ "/assets/img/mas-failure-review/figure-3.png" | relative_url }})
 
 *Note.* Reproduced from “Where LLM Agents Fail and How They Can Learn
 From Failures,” by K. Zhu et al., 2025, Figure 2, arXiv
@@ -183,7 +183,7 @@ reasoning biases (Zheng et al., 2023).
 *MAST taxonomy of multi-agent system failure modes across conversation
 stages*
 
-![Figure 4]({{ "/assets/images/mas-failure-review/figure-4.png" | relative_url }})
+![Figure 4]({{ "/assets/img/mas-failure-review/figure-4.png" | relative_url }})
 
 *Note.* Reproduced from “Why Do Multi-Agent LLM Systems Fail?” by M.
 Cemri et al., 2025, Figure 1, Advances in Neural Information Processing
