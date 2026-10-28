@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-few-shot-learning-notes-on-food-101",
+            },{id: "post-is-the-multi-agent-system-another-hallucination",
+        
+          title: "Is the Multi-Agent System Another Hallucination?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/is-the-multi-agent-system-another-hallucination/";
+          
+        },
+      },{id: "post-few-shot-learning-notes-on-food-101",
         
           title: "Few-Shot Learning Notes on Food-101",
         
